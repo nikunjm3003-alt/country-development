@@ -18,7 +18,7 @@ st.title("🌍 Country Development Predictor")
 st.markdown("Classifies a country's development status based on socio-economic and health factors.")
 
 # Model Path
-MODEL_PATH = r'C:\Users\HP\OneDrive\Desktop\country_development\model\country_model.pkl'
+MODEL_PATH = 'model/country_model.pkl'
 
 try:
     model, scaler = load_prediction_artifacts(MODEL_PATH)
