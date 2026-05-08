@@ -7,8 +7,6 @@ env/
 __pycache__/
 *.py[cod]
 
-# Streamlit secrets (CRITICAL for security)
+# Streamlit secrets 
 .streamlit/
 
-# Local database files (if you ever use SQLite)
-*.db
