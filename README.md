@@ -18,6 +18,28 @@ development status.
 
 
 
+✨ Key Features
+Intelligent Clustering: Uses a Scikit-Learn model trained on global socio-economic data.
+
+User Accounts: Secure registration and login using unique UUIDs.
+
+Persistent History: Your predictions are saved to a PostgreSQL database (Neon.tech) so they survive app restarts.
+
+Data Preprocessing: Custom feature engineering including Trade Balance and Real Income calculations.
+
+🛠️ How it was Built
+The project is split into a modular architecture to ensure clean code and easy maintenance:
+
+Frontend: Streamlit.
+
+Backend Database: PostgreSQL hosted on Neon.
+
+Preprocessing: Custom Python scripts for scaling and feature engineering.
+
+Model: KMeans clustering saved as a joblib artifact.
+
+
+
 \## 🗂️ Project Structure
 
 country\_development/
@@ -72,6 +94,10 @@ country\_development/
 
 \- \*\*Joblib\*\* — model serialization
 
+\- \*\*PostgreSQL (Neon.tech)\*\* — Persistent data storage
+
+\- \*\*SQLAlchemy\*\* — Database ORM
+
 
 
 \## 🧠 ML Approach
@@ -101,62 +127,6 @@ country\_development/
 &#x20; income, inflation, life expectancy, fertility rate, GDP per capita
 
 
-
-\## 🚀 How to Run
-
-
-
-\*\*1. Clone the repository\*\*
-
-```bash
-
-git clone https://github.com/yourusername/country-development.git
-
-cd country-development
-
-```
-
-
-
-\*\*2. Create and activate virtual environment\*\*
-
-```bash
-
-python -m venv venv
-
-venv\\Scripts\\Activate        # Windows PowerShell
-
-```
-
-
-
-\*\*3. Install dependencies\*\*
-
-```bash
-
-pip install -r requirements.txt
-
-```
-
-
-
-\*\*4. Train the model\*\*
-
-```bash
-
-python src/train.py
-
-```
-
-
-
-\*\*5. Run the app\*\*
-
-```bash
-
-streamlit run app.py
-
-```
 
 
 
