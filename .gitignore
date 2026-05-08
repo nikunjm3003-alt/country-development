@@ -1,3 +1,14 @@
+# Environments
 venv/
-__pycache__/
+env/
 .env
+
+# Python internal files
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets (CRITICAL for security)
+.streamlit/
+
+# Local database files (if you ever use SQLite)
+*.db
