@@ -1,6 +1,6 @@
 \# 🌍 Country Development Predictor 
 **APP**
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://country-development-97mdmzappppexrvefryzbnuz.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://country-development-ecj2lxxk2m6bv7dj9suf2n.streamlit.app/)
 
 A machine learning web application that classifies countries into development 
 
